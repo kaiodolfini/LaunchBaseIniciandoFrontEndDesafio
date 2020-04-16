@@ -1,0 +1,36 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap";
+:root{
+    --color-green: #56ff80;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #111010d5;
+}
+header{
+    padding: 30px;
+    border-bottom: 1px solid rgb(8, 8, 8);
+    background: rgba(0, 0, 0, 0.692);
+}
+
+.links{
+    text-align: center;
+}
+
+.links a{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+.links a:hover{
+    color: var(--color-green);
+    transition: color 300ms;
+}
