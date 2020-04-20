@@ -150,6 +150,7 @@ header{
     height: 90%;
     margin: 5vh auto;
     position: relative;
+    transition: all 300ms;
 }
 
 .modal .close-modal{
@@ -163,7 +164,7 @@ header{
 .modal .maximize-modal{
     color: black;
     position: absolute;
-    right: 8px;
+    right: 40px;
     top: 8px;
     cursor: pointer;
 }
@@ -177,7 +178,16 @@ header{
 
 iframe{
     width: 100%;
-    height: 90%;
-    top: 5%;
+    height: calc(100% - 40px);
+    top: 40px;
     position: absolute;
+}
+
+/*======== MODAL.MAXIZE ========*/
+
+.modal.maximize{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    transition: all 300ms;    
 }
